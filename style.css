@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+h1{
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    top: 10vh;
+}
+.accordion{
+    top: 30vh ;
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 700px;
+    display: flex;
+    
+    flex-direction: column;
+}
